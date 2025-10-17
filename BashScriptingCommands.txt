@@ -1,0 +1,8 @@
+1. touch data.txt 
+2. echo >> data.txt 
+3. nano data.txt
+4. cat data.txt. // show data
+5. rm no.txt
+6. rm -rf hoi
+7. mv sham ram
+8. cp -r data1.txt ram
