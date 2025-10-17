@@ -11,3 +11,15 @@
 11. File Create - code.sh
 - Comnd: bash code.sh 
 12. chmod +x code.sh  // permission - ./code.sh
+
+13. 
+
+#!/bin/bash
+
+# echo "Hello World"
+
+# echo "Enter Your Name:"
+# read name
+
+read -p  "Enter Your Name: " name  # -p = parameter pass/prompt
+echo "Your Name is $name"
