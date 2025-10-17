@@ -5,11 +5,13 @@
 # -gt = greater than
 # -ge = greater than and equals to 
 # -le = less than and equals to 
+# -eq = equals to 
+# -ne = not equals to 
 
 
 # if [ 5 -ge 10 ];then 
 # if [ 5 -le 5 ];then 
-if [ 6  -le 5 ];then 
+if [ 6 -ne 5 ];then 
     # echo "5 is less than 10";
     # echo "5 is greater and equals";
     echo "true";
