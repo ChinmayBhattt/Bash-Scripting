@@ -35,3 +35,22 @@
 
 # code3=$(cd)
 # echo "CD: " $code3
+
+
+# Creating Array ------------
+
+# fruits=("apple" "banana" "cherry")
+# echo ${fruits[0]}
+# echo ${fruits[1]}
+# echo ${fruits[2]}
+
+# Key Val(doc) using Array ------------
+
+declare -A person
+
+person["name"]="Chinmay"
+person["age"]=18
+person["gender"]="M"
+echo "Name is ${person["name"]}"
+echo "Age is ${person["age"]}"
+echo "Gender is ${person["gender"]}"
