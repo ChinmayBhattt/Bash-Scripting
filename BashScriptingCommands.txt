@@ -6,3 +6,8 @@
 6. rm -rf hoi
 7. mv sham ram
 8. cp -r data1.txt ram
+9. ls text // pass folder
+10. ls -a // all files
+11. File Create - code.sh
+- Comnd: bash code.sh 
+12. chmod +x code.sh  // permission - ./code.sh
